@@ -1,17 +1,23 @@
 body {
   margin: 0px;
   padding: 0px;
+  background-color: #F8B600;
+
 }
+/* header */
 header {
   width: 100%;
-  height: 200px;
+  height: 150px;
   background-image: url(../img/bannière2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* navBar */
 nav {
+  width: 100%;
   margin: 0px;
   padding: 0px;
+  background-color: white;
 }
 #listNav {
   list-style-type: none;
@@ -32,8 +38,83 @@ li {
   border-bottom-style: solid;
   width: 16.6%;
   text-align: center;
-  box-shadow: 0px 4px 4px #aaa;
+  box-shadow: 3px 3px 6px;
 }
 #navContact {
   border-right-style: solid;
+}
+/* sections */
+main {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+h3 {
+  margin: 0.5em;
+}
+p {
+  font-size: 1em;
+}
+/* contact */
+#contact {
+  height: 100%;
+  display flex:
+  width: 25%;
+  border-style: solid;
+  padding: 0.5em;
+  margin: 1em;
+  background-color: white;
+  box-shadow: 3px 3px 6px;
+}
+#photoContact {
+  width: 200px;
+}
+/* compétences */
+#compétences {
+  display flex:
+  width: 50%;
+  height: 38%;
+  border-style: solid;
+  margin: 1em 0.2em 0.5em 0.2em;
+  padding: 0.5em;
+  background-color: white;
+  box-shadow: 3px 3px 6px;
+
+}
+/* expériences */
+#Expériences {
+  display flex:
+  width: 50%;
+  height: 39%;
+  border-style: solid;
+  padding: 0.5em;
+  margin: 0.5em 0.2em 0.5em 0.2em;
+  background-color: white;
+  box-shadow: 3px 3px 6px;
+
+}
+/* formation */
+#Formation {
+  display flex:
+  width: 25%;
+  height: 38%;
+  border-style: solid;
+  margin: 1em;
+  padding: 0.5em;
+  background-color: white;
+  box-shadow: 3px 3px 6px;
+
+}
+/* Portfolio */
+#Portfolio {
+  display flex:
+  width: 25%;
+  height: 39%;
+  border-style: solid;
+  margin: 1em;
+  padding: 0.5em;
+  background-color: white;
+  box-shadow: 3px 3px 6px;
 }
